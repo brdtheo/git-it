@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+del {
+  background-color: rgb(255 0 0 / 50%);
+}
+
+ins {
+  text-decoration: none;
+  background-color: rgb(36 216 36 / 50%);
+}
+
 .wrapper {
   width: 500px;
   margin: 0 auto;
