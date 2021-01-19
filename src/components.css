@@ -94,3 +94,43 @@ button.block {
   padding: 20px 30px;
   background: rgba(255, 255, 255, .3);
 }
+
+.alert-sm .alert-content {
+  padding: 5px 30px;
+}
+
+.outlined .alert-content {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  background: #fff;
+  color: inherit;
+}
+
+.alert.outlined.primary {
+  color: rgb(var(--primary));
+  border-color: rgb(var(--primary));
+}
+
+.alert.outlined.warn {
+  color: rgb(var(--warn));
+  border-color: rgb(var(--warn));
+}
+
+.alert.outlined.danger {
+  color: rgb(var(--danger));
+  border-color: rgb(var(--danger));
+}
+
+.alert.outlined.info {
+  color: rgb(var(--info));
+  border-color: rgb(var(--info));
+}
+
+.alert.outlined.success {
+  color: rgb(var(--success));
+  border-color: rgb(var(--success));
+}
