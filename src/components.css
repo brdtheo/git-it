@@ -147,13 +147,13 @@ button.block {
   font-family: 'Poppins', sans-serif;
 }
 
-.list li:nth-child(2){
+.list li:nth-child(2) {
   background: #f5f5f5;
 }
 
 .list-img {
   width: max-content;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .list-img img {
@@ -189,4 +189,27 @@ button.block {
 
 .list-content button {
   margin-left: 0;
+}
+
+.list.small li {
+  margin-bottom: 10px;
+}
+
+.list.small .list-img, .list.small .list-img img {
+  width: 50px;
+}
+
+.list.small .list-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list.small .list-content p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.list.small .list-content button {
+  margin-left: 5px;
 }
