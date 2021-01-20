@@ -203,13 +203,11 @@ button.block {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding: 0 0 5px 5px;
 }
 
 .list.small .list-content p {
+  margin: 5px 0 0;
   text-overflow: ellipsis;
   overflow: hidden;
-}
-
-.list.small .list-content button {
-  margin-left: 5px;
 }
