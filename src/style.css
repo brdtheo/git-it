@@ -1,3 +1,8 @@
+@import './components/alert.css';
+@import './components/button.css';
+@import './components/chip.css';
+@import './components/list.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 :root {
@@ -60,4 +65,53 @@ p {
   font-weight: 300;
   font-family: 'PT Serif', sans-serif;
   margin: 50px 0;
+}
+
+.primary, .warn, .danger, .success, .info {
+  box-shadow: 0px 2px 5px 0 rgba(180, 180, 180, .4);
+}
+
+.primary {
+  background: rgb(var(--primary));
+  color: #fff;
+}
+
+.primary:focus {
+  box-shadow: 0 0 1px 3px rgba(var(--primary), .4);
+}
+
+.warn {
+  background: rgb(var(--warn));
+  color: #000;
+}
+
+.warn:focus {
+  box-shadow: 0 0 1px 3px rgba(var(--warn), .4);
+}
+
+.danger {
+  background: rgb(var(--danger));
+  color: #fff;
+}
+
+.danger:focus {
+  box-shadow: 0 0 1px 3px rgba(var(--danger), .4);
+}
+
+.success {
+  background: rgb(var(--success));
+  color: #fff;
+}
+
+.success:focus {
+  box-shadow: 0 0 1px 3px rgba(var(--success), .4);
+}
+
+.info {
+  background: rgb(var(--info));
+  color: #fff;
+}
+
+.info:focus {
+  box-shadow: 0 0 1px 3px rgba(var(--info), .4);
 }
