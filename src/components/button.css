@@ -29,4 +29,6 @@ button.big {
 button.block {
   width: 100%;
   padding: 10px 16px;
+  margin-left: 0;
+  margin-right: 0;
 }
