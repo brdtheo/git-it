@@ -11,6 +11,7 @@
   --danger: 222, 77, 68;
   --success: 68, 182, 72;
   --info: 0, 167, 213;
+  --dark: 34, 47, 62;
   --radius: 5px;
 }
 
@@ -63,7 +64,7 @@ p {
   margin: 50px 0;
 }
 
-.primary, .warn, .danger, .success, .info {
+.primary, .warn, .danger, .success, .info, .alert, .list-img img {
   box-shadow: 0px 2px 5px 0 rgba(180, 180, 180, .4);
 }
 
@@ -110,6 +111,15 @@ p {
 
 .info:focus {
   box-shadow: 0 0 1px 3px rgba(var(--info), .4);
+}
+
+.dark {
+  background: rgb(var(--dark));
+  color: #fff;
+}
+
+.dark:focus {
+  box-shadow: 0 0 1px 3px rgba(var(--dark), .4);
 }
 
 hr {

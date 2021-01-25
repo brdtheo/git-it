@@ -1,6 +1,5 @@
 .alert {
   padding-left: 10px;
-  box-shadow: 0px 2px 5px 0 rgba(180, 180, 180, .4);
   margin-bottom: 10px;
   font-family: 'Poppins';
   font-size: 13px;
@@ -51,4 +50,9 @@
 .alert.outlined.success {
   color: rgb(var(--success));
   border-color: rgb(var(--success));
+}
+
+.alert.outlined.dark {
+  color: rgb(var(--dark));
+  border-color: rgb(var(--dark));
 }
