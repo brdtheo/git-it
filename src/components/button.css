@@ -32,3 +32,43 @@ button.block {
   margin-left: 0;
   margin-right: 0;
 }
+
+button.outlined {
+  border: solid transparent 1px;
+  background: none;
+}
+
+button.outlined.small {
+  border: solid transparent 1px;
+  background: none;
+}
+
+button.outlined.big {
+  border: solid transparent 2px;
+  background: none;
+}
+
+button.outlined.primary {
+  border-color: rgb(var(--primary));
+  color: rgb(var(--primary));
+}
+
+button.outlined.warn {
+  border-color: rgb(var(--warn));
+  color: rgb(var(--warn));
+}
+
+button.outlined.danger {
+  border-color: rgb(var(--danger));
+  color: rgb(var(--danger));
+}
+
+button.outlined.success {
+  border-color: rgb(var(--success));
+  color: rgb(var(--success));
+}
+
+button.outlined.info {
+  border-color: rgb(var(--info));
+  color: rgb(var(--info));
+}
