@@ -64,7 +64,7 @@ p {
   margin: 50px 0;
 }
 
-.primary, .warn, .danger, .success, .info {
+.primary, .warn, .danger, .success, .info, .alert, .list-img img {
   box-shadow: 0px 2px 5px 0 rgba(180, 180, 180, .4);
 }
 
