@@ -72,3 +72,8 @@ button.outlined.info {
   border-color: rgb(var(--info));
   color: rgb(var(--info));
 }
+
+button.outlined.dark {
+  border-color: rgb(var(--dark));
+  color: rgb(var(--dark));
+}

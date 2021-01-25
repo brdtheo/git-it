@@ -52,3 +52,8 @@
   color: rgb(var(--success));
   border-color: rgb(var(--success));
 }
+
+.alert.outlined.dark {
+  color: rgb(var(--dark));
+  border-color: rgb(var(--dark));
+}
